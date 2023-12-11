@@ -5,7 +5,6 @@ The application allows users to visualize dataset metrics, execute various regre
 ## Features
 - Visualize dataset metrics using histograms.
 - Execute different regression algorithms:
-  - Linear Regression
   - Multiple Linear Regression
   - Polynomial Regression
   - Decision Tree Regression
@@ -38,6 +37,4 @@ python main.py
 - **visualization/**: Module for visualizing dataset metrics.
 - **regressors/**: Module containing regression algorithms.
 - **evaluation/**: Module for evaluating algorithm performance.
-
-
-
+- 

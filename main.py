@@ -57,7 +57,7 @@ def create_gui(root):
         ("Polynomial Regression", polynomial_regression),
         ("Decision Tree Regression", decision_tree_regression),
         ("Random Forest Regression", random_forest_regression),
-        ("Support Vector Machine", support_vector_machine)
+        ("Support Vector Regression", support_vector_machine)
     ]
 
     for i, (algorithm_name, algorithm_func) in enumerate(algorithms, start=2):

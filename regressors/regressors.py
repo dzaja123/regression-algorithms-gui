@@ -8,13 +8,6 @@ import pandas as pd
 import numpy as np
 
 
-def linear_regression(Xtrain: pd.DataFrame, Ytrain: pd.DataFrame, Xtest: pd.DataFrame, Ytest: pd.DataFrame) -> tuple:
-    linreg = LinearRegression()
-    linreg.fit(Xtrain, Ytrain)
-    real_linreg = linreg.predict(Xtest)
-    metrics = evaluate_metrics(Ytest, real_linreg)
-    return metrics
-
 def multiple_linear_regression(Xtrain: pd.DataFrame, Ytrain: pd.DataFrame, Xtest: pd.DataFrame, Ytest: pd.DataFrame) -> tuple:
     model = LinearRegression()
     model.fit(Xtrain, Ytrain)

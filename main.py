@@ -6,7 +6,6 @@ from preprocessing.preprocessing import prepare_dataset
 from visualization.visualization import visualize_histograms
 from regressors.regressors import (random_forest_regression,
                                     support_vector_machine,
-                                    linear_regression,
                                     multiple_linear_regression,
                                     decision_tree_regression,
                                     polynomial_regression)
@@ -54,7 +53,6 @@ def create_gui(root):
     visualize_button.grid(row=1, column=0, columnspan=2, pady=10, sticky="ew")
 
     algorithms = [
-        ("Linear Regression", linear_regression),
         ("Multiple Linear Regression", multiple_linear_regression),
         ("Polynomial Regression", polynomial_regression),
         ("Decision Tree Regression", decision_tree_regression),

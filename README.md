@@ -9,7 +9,7 @@ The application allows users to visualize dataset metrics, execute various regre
   - Polynomial Regression
   - Decision Tree Regression
   - Random Forest Regression
-  - Support Vector Machine
+  - Support Vector Regression
 - View evaluation metrics for each algorithm.
 
 ## Installation
